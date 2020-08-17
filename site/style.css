@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 20px 20px 20px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    border: 1px solid black;
+    width: 200px;
+    background: grey;
+}
+
+div>div>h3 {
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+}
