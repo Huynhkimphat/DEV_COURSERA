@@ -10,19 +10,27 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
 }
 
 .container-1,
 .container-2,
 .container-3 {
     border: 1px solid black;
-    width: 200px;
+    width: 300px;
     background: grey;
 }
 
 div>section>h3 {
     background: pink;
-    display: flex;
-    justify-content: space-around;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+div>section>p {
+    float: left;
+    margin-bottom: 10px;
+    clear: left;
 }
