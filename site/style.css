@@ -21,7 +21,7 @@ h1 {
     background: grey;
 }
 
-div>div>h3 {
+div>section>h3 {
     background: pink;
     display: flex;
     justify-content: space-around;
